@@ -7,10 +7,12 @@
     <title>Consuming ViaCEP</title>
 </head>
 <body>
-    <form method="get" action=".">
+    <form id="form-cep" method="get" action=".">
         <label>Cep:
-        <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+        <input name="cep" type="text" id="cep" value="" size="45" maxlength="9"
                onblur="pesquisacep(this.value);" /></label><br />
+    </form>
+    <form id="ask-form">
         <label>Rua:
         <input name="rua" type="text" id="rua" size="60" /></label><br />
         <label>Bairro:
@@ -21,7 +23,7 @@
         <input name="uf" type="text" id="uf" size="2" /></label><br />
         <label>IBGE:
         <input name="ibge" type="text" id="ibge" size="8" /></label><br />
-      </form>
+    </form>
 
       <script src="./scripts/script.js"></script>
 </body>

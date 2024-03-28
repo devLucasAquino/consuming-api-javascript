@@ -6,13 +6,22 @@
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #83e509;
+    gap: 5rem;
+    background-image: linear-gradient(to bottom left, #65b307, #a4ea4f)
 }
 
 form{
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: #fbfbfb;
+    width: 40rem;
+}
+
+#ask-form{
     display: flex;
     flex-direction: column;
     justify-content: center;
